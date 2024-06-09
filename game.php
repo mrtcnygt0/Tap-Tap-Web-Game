@@ -1,12 +1,4 @@
 <?php
-
-/*!
-  * Item: Tap-Tap GAME
-  * Description: Web Tabanlı Mobil Oyun
-  * Author/Developer: mrtcnygt0
-  * Version: v1
-*/
-
 session_start();
 if (!isset($_SESSION['username'])) {
     header('Location: index.php');
@@ -169,6 +161,7 @@ if (!isset($_SESSION['username'])) {
         <button id="startButton">Başla</button>
         <div id="explosionEffect" class="explosion"></div>
         <audio id="clickSound" src="sounds/collectPoints.mp3"></audio>
+		<audio id="bombSound" src="sounds/explosion.mp3"></audio>
         <audio id="readySound" src="sounds/ready.mp3"></audio>
         <audio id="startSound" src="sounds/countdown.mp3"></audio>
     </div>
@@ -230,6 +223,7 @@ if (!isset($_SESSION['username'])) {
         }
 
         function showExplosion(x, y) {
+			document.getElementById('bombSound').play();
             const explosion = document.getElementById('explosionEffect');
             explosion.style.left = (x - 34) + 'px'; // 68px / 2 = 34px (merkezlemek için)
             explosion.style.top = (y - 34) + 'px';
