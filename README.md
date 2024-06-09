@@ -7,3 +7,5 @@ Beta sürümdür.
 Bana ulaşmak isterseniz:
 Website: mertcanyigit.com
 Mail: mertcanyigit54@outlook.com
+
+Link: https://github.com/mrtcnygt0/Tap-Tap-Web-Game/releases/

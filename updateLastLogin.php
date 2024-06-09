@@ -1,5 +1,13 @@
 <?php
 
+/*!
+  * Item: Tap-Tap GAME
+  * Description: Web Tabanlı Mobil Oyun
+  * Author/Developer: mrtcnygt0
+  * Version: v1
+*/
+
+
 include 'db_connect.php'; // Veritabanı bağlantı bilgilerini içeren dosya
 
 date_default_timezone_set('Europe/Istanbul'); // Türkiye saati için saat dilimini ayarla

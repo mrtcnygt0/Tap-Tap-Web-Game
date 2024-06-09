@@ -1,4 +1,12 @@
 <?php
+
+/*!
+  * Item: Tap-Tap GAME
+  * Description: Web Tabanlı Mobil Oyun
+  * Author/Developer: mrtcnygt0
+  * Version: v1
+*/
+
 // Veritabanı bağlantısı için gerekli bilgileri içeren değişkenler
 $host = "localhost";
 $dbname = "oyun_db";

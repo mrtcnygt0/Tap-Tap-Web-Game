@@ -1,4 +1,12 @@
 <?php
+
+/*!
+  * Item: Tap-Tap GAME
+  * Description: Web Tabanlı Mobil Oyun
+  * Author/Developer: mrtcnygt0
+  * Version: v1
+*/
+
 // db_connect.php dosyasını include ediyoruz
 include 'db_connect.php';
 

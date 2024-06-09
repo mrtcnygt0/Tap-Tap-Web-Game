@@ -1,5 +1,12 @@
 <?php
-// Session başlat
+
+/*!
+  * Item: Tap-Tap GAME
+  * Description: Web Tabanlı Mobil Oyun
+  * Author/Developer: mrtcnygt0
+  * Version: v1
+*/
+
 session_start();
 
 // Eğer kullanıcı oturumu açıksa
